@@ -5,6 +5,12 @@ import {NotFoundComponent} from "./not-found/not-found.component";
 
 const routes: Routes = [
   {
+    path:'login',
+    loadChildren:() =>import('./usuarios/usuarios.module')
+        .then((m)=>m.UsuariosModule)
+
+  },
+  {
     path: '',
     component: HomeComponent
   },
