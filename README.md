@@ -21,9 +21,11 @@ Legenda:
     - quantidadeRecebida?
     - quantidadeDoada?
     - chave pix?
+    - foto?
 
       
 - Usuario Recebedor: 
     - nome 
     - descrição (história) 
-    - chave pix 
+    - chave pix
+    - foto da chave pix/pessoa?
