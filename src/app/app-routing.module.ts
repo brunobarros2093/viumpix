@@ -11,6 +11,12 @@ const routes: Routes = [
 
   },
   {
+    path:'listas',
+    loadChildren:() =>import('./listas/listas.module')
+        .then((m)=>m.ListasModule)
+
+  },
+  {
     path: '',
     component: HomeComponent
   },
